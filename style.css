@@ -1,0 +1,138 @@
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header y Footer */
+header, footer {
+    background-color: #007BFF; /* El mismo color para ambos */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Espaciado interno */
+}
+
+header h1, footer p {
+    margin: 10px 0;
+}
+
+/* Navegación */
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayado en el hover */
+}
+
+/* Formulario */
+.form-container {
+    background: white;
+    padding: 20px;
+    width: 40%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botones de Acción */
+button.Editar {
+    background-color: #28a745;
+}
+
+button.Eliminar {
+    background-color: #dc3545;
+}
+
+/* Estilos del Footer */
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 5px 0;
+}
